@@ -8,7 +8,7 @@ const len = strb.length-1;
 	}
 	
 	for (let i=0; i<len/2; i++){
-		if(strb[i] !== strb[len -i]){
+		if(strb[i] !== strb[len -1]){
 			return false;
 		
 		}else{
