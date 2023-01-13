@@ -1,12 +1,11 @@
 // complete the given function
 
 function palindrome(str){
-const len = str.length;
-	if(str.length == 1){
-		return true;
-	}
+	let strb = str.toLowercase()
+const len = strb.length;
+	
 	for (let i=0; i<len/2; i++){
-		if(str[i] != str[len -i-1]){
+		if(strb[i] !== strb[len -i-1]){
 			return false;
 		
 		}else{
