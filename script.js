@@ -2,12 +2,12 @@
 
 function palindrome(str){
 	let strb = str.toLowerCase()
-const len = strb.length-1;
+const len = strb.length;
 	  // let j = str.length -1;
       for( let i = 0 ; i < len/2 ;i++)
       {
         let x = str[i] ;//forward character
-        let y = str[len-i];//backward character
+        let y = str[len-1-i];//backward character
         if( x != y)
         {
           // return false if string not match
