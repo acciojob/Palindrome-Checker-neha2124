@@ -1,20 +1,16 @@
 // complete the given function
 
 function palindrome(str){
-	  let j = str.length -1;
-      for( let i = 0 ; i < j/2 ;i++)
-      {
-        let x = str[i] ;//forward character
-        let y = str[j-i];//backward character
-        if( x != y)
-        {
-          // return false if string not match
-          return false;
-        }
-      }
-      /// return true if string is palindrome
-      return true;
-        
+	let strb = str.toLowerCase()
+const len = strb.length;
+	
+	for (let i=0; i<len/2; i++){
+		if(strb[i] !== strb[len -i-1]){
+			return false;
+		
+		}else{
+			return true;
+		}
 	}
 	// console.log(str)
 	
