@@ -8,7 +8,9 @@ function palindrome(str){
 		
 
 	}
-	console.log(palindrome('eye'))
 	
-}
+	
+
+// console.log("hello")
+// console.log(palindrome("eye"))
 module.exports = palindrome
